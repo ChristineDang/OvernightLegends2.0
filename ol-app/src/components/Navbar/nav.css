@@ -1,0 +1,24 @@
+#navbarfy{
+    position: absolute;
+    z-index: 9999;
+}
+
+#home{
+    color: black;
+    
+}
+
+.drip{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#dropdown{
+    width: 1000px;
+
+}
+
+
+.multi-column-dropdown {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
