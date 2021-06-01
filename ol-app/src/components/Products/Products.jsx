@@ -3,6 +3,7 @@ import{ Grid } from '@material-ui/core';
 
 import Product from './Product/Product';
 import Navbarf from '../Navbar';
+
 const products = [
     { id:1, name: 'cactusBadges', description: 'cactus badges', price: '$5.00', image:'images/cactus.png'},
     { id:2, name: 'chickBadges', description: 'egg to chick badges', price: '$5.00', image:'images/eggbadges.png'},
@@ -18,7 +19,6 @@ const products = [
 const Products = () => {
     return (
         <main>
-        <Navbarf></Navbarf>
         <Grid container justify="center" spacing={4}>
             {products.map((product) => (
                 <Grid item key={product.id} xs={12} sm={6} md={4} lg={3}>

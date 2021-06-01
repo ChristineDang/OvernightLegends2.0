@@ -13,7 +13,6 @@ import Socials from "../socials";
 function homepage() {
   return (
     <div className="App">
-      <Navbarf></Navbarf>
       <Jumbotron className="App-header">
         <h1 className="overnight">OVERNIGHT</h1>
       </Jumbotron>
