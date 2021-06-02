@@ -17,10 +17,10 @@ render(){
         <Nav className="mr-auto">
 
           <NavDropdown title="Shop" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.4">Packages</NavDropdown.Item>
+              <NavDropdown.Item href="/shop">Packages</NavDropdown.Item>
           <NavDropdown.Divider />
             <h5>Affiliate</h5>
-              <NavDropdown.Item href="#action/3.1">Alerts</NavDropdown.Item>
+              <NavDropdown.Item href="/shop">Alerts</NavDropdown.Item>
               <NavDropdown.Item href="/shop">Badges</NavDropdown.Item>
               <NavDropdown.Item href="/shop">Emotes</NavDropdown.Item>
               <NavDropdown.Item href="/shop">Overlays</NavDropdown.Item>
