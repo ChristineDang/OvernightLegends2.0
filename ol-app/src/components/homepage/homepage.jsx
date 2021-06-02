@@ -6,7 +6,6 @@ import { Jumbotron, ListGroup } from "react-bootstrap";
 //import background from "./background/doodle-icon.jpg";
 // import emote from "images/choncc_panda_nice.png";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Navbarf from "../Navbar";
 import Footer from "../footer";
 import Socials from "../socials";
 

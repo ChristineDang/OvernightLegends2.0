@@ -16,27 +16,26 @@ render(){
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
 
-          <NavDropdown title="Shop Affiliate" id="basic-nav-dropdown">
+          <NavDropdown title="Shop" id="basic-nav-dropdown">
+              <NavDropdown.Item href="#action/3.4">Packages</NavDropdown.Item>
+          <NavDropdown.Divider />
+            <h5>Affiliate</h5>
+              <NavDropdown.Item href="#action/3.1">Alerts</NavDropdown.Item>
+              <NavDropdown.Item href="/shop">Badges</NavDropdown.Item>
+              <NavDropdown.Item href="/shop">Emotes</NavDropdown.Item>
+              <NavDropdown.Item href="/shop">Overlays</NavDropdown.Item>
+              <NavDropdown.Item href="/shop">Panels</NavDropdown.Item>
+              <NavDropdown.Item href="/shop">Scenes</NavDropdown.Item>
+              <NavDropdown.Item href="/shop">Transitions</NavDropdown.Item>
 
-            <NavDropdown.Item href="#action/3.1">Alerts</NavDropdown.Item>
-            <NavDropdown.Item href="/products">Badges</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">Emotes</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.4">Overlays</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.5">Panels</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.6">Scenes</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.7">Transitions</NavDropdown.Item>
-            {/* <NavDropdown.Divider />
-            <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item> */}
-          </NavDropdown>
+          <NavDropdown.Divider />
 
-          <NavDropdown title="Shop Non-Affiliate" id="basic-nav-dropdown">
-            <NavDropdown.Item href="#action/3.1">Alerts</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">Overlays</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">Panels</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.4">Scenes</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.5">Transitions</NavDropdown.Item>
-            {/* <NavDropdown.Divider />
-            <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item> */}
+            <h5>Non-Affiliate</h5>
+              <NavDropdown.Item href="/shop">Alerts</NavDropdown.Item>
+              <NavDropdown.Item href="/shop">Overlays</NavDropdown.Item>
+              <NavDropdown.Item href="/shop">Panels</NavDropdown.Item>
+              <NavDropdown.Item href="/shop">Scenes</NavDropdown.Item>
+              <NavDropdown.Item href="/shop">Transitions</NavDropdown.Item>
           </NavDropdown>
 
           <Nav.Link href="#home">About Us</Nav.Link>
